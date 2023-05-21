@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#EFEFEF"
+    android:layout_height="match_parent"
+    tools:context=".About_page2">
+    <!--title swipe-->
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/khusus"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="ABOUT US"
+                android:textColor="@color/warnaputih"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="PACE SHOP Adalah perusahaan pakaian yang berkembang pesat yang menyediakan pakaian eksklusif berkualitas berkualitas tinggi dan didirikan pada 13 juni 2020 di bayah payung CV.Distro Anda Group. "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="Misi kami adalah menjadi perusahaan pakaian anak muda terkemuka di Indonesia; untuk membawa pesan gaya hidup kita tentang sukacita, kemandirian, kreativitas, dan inovasi  ke komunitas global ini; untuk menjadi tempat kreativitas, dan inovasi ke komunitas global ini; untuk menjadi tempat kreativitas dalam musik, mode, seni, olahraga, pendidikan, sosial dan budaya."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="Saat ini, distribusi kami telah menyebar ke banyak kota besar di indonesia seperti Bandung, Jakarta, Surabaya, Jogjakarta, Bali, Makasar, Palu, Balikpapan, Padang, Palembang, dll."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#EFEFEF"
+    android:layout_height="match_parent"
+    tools:context=".Ketentuan_page3">
+    <!--title swipe-->
+    <androidx.appcompat.widget.Toolbar
+        android:gravity="center"
+        android:background="@drawable/khusus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="SYARAT DAN KETENTUAN"
+                android:textColor="@color/warnaputih"
+                android:textSize="20dp"/>
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TextView
+        android:textColor="@color/texthitam"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="PENGEMBALIAN ATAU PENUKARAN KARNA BRANG CACAT ATAU SALAH SIZE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="Anda dapat melakukan pembelian barang apabila produk PaceShop yang diterima dalam keadaan rusak atau cacat, siap untuk menerima kembali ditukar.                 Hal yang disiapkan ketika menghubungi agen Costomer Service melalui email dan chat:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="1. Nomor Order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="2. Penjelasan detail mengenai produk yang rusak/cacat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="3. No SKU yang terdapat pada tag produk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="4. Lampiran foto produk yang rusak/cacat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="Penting : Pengembalian tidak lebih dari 2 hari sejak tanggal produk diterima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="KESAHALAN PENGIRIMAN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="Apabila terjadi kesalahan pengiriman, hal pertama yang harus anda lakukan adalah melapor ke CS Pace shop dengan segera. informasikan data diri anda, kesalahan yang terjadi, dan barang yang seharusnya anda dapatkan. kesalahan pengiriman ini akan kami atasi secepat mungkin."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="PROSES PENGEMBALIAN DANA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="Untuk pengambilan dana kami menggunakan metode Bank Transfer via Bank Mandiri apabila menggunakan Bank lain akan dikenakan biaya administrasi, harap data data berikut diisi dengan benar dan lengkap:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="1. Nama Bank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="2. Nomor Akun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="3. Nama Pemegang Akun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="PERLU DIINGAT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/texthitam"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="Untuk melakukan penukaran / pengembalian barang harus masih sama dalam keadaan seperti semula (tidak terpakai, tidak kotor, dll). apabila kami menemukan barang sudah digunakan dan kondiri kurang baik, kami tidak bisa menerima proses penukaran /  pengembalian. Barang tersebut akan langsung kami kirim ke anda."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

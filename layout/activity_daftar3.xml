@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#EFEFEF"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Daftar3">
+
+    <!-- navigasi bar-->
+    <androidx.appcompat.widget.Toolbar
+        android:gravity="center"
+        android:background="@drawable/khusus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="NEWS ACCESSORIES"
+                android:textColor="@color/warnaputih"
+                android:textSize="20dp"/>
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="196dp"
+                android:src="@drawable/as2"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+            <TextView
+                android:textColor="@color/texthitam"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center_horizontal"
+                android:text="ACCESSORIES UPDATE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+            <TextView
+                android:textColor="@color/texthitam"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="15dp"
+                android:text="Telah rilis accessories terbaru kami (gantunngan kunci) yang persediaannya terbatas, jangan sampai kehabisan, buruan dapatkan accessories kami di official store, website, ataupun aplikasi kami, semoga beruntung teman-teman."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+            <ImageView
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="196dp"
+                android:src="@drawable/as3"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+            <TextView
+                android:textColor="@color/texthitam"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="15dp"
+                android:text="Halo kak, sekarang brand kami telah berkolaborasi bersama brand kaca mata lokal, kolaborasi ini akan segera rilis di catalog terbaru kami, semoga kalian semua suka dengan kolaborasi terbaru kami bersama brand kaca mata lokal asli indonesia ini. kami akan segera mengabarkan kepada kalian semua kapan kaca mata ini rilis, see you guys."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
