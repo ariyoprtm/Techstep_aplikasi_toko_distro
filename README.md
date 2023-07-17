@@ -1,5 +1,7 @@
 Proyek Aplikasi Toko Baju Distro (Pace Shop)
+-
 Mata Kuliah Rekayasa Perangkat Lunak
+-
 Dosen Pengampu: Ali Tarmuji, S.T., M.Cs.
 
 Anggota Kelompok: 
